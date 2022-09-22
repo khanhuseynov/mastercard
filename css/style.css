@@ -1,0 +1,43 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 500px;
+    min-height: 300px;
+    position: relative;
+}
+.cicle1{
+    display: inline-block;
+    width: 200px;
+    min-height: 200px;
+    background-color: #f79e1b;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 95px;
+    z-index: 9999999;
+    opacity: .8;
+}
+.cicle2{
+    display: inline-block;
+    width: 200px;
+    min-height: 200px;
+    background-color: #eb001b;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 222px;
+    
+}
+p{
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    left: 155px;
+    bottom: 21px;
+    
+}
